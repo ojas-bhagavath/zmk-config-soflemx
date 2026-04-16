@@ -1,4 +1,9 @@
-# Sofle Choc or MX with 2 encoders. 
+# README 
+
+This is the zmk config for my Sofle keyboard with 58 keys and 2 rotary encoders.
+
+## Keymap
+![sofle_keymap](https://github.com/ojas-bhagavath/zmk-config/blob/994ca82caaca143c8f87ade1d9fde141ae019aff/sofle_keymap.png)
 
 Flash firmware:
 1. Keep both halves powered on.
@@ -7,12 +12,3 @@ Flash firmware:
 4. Press physical reset button twice. > drag and drop sofle_left firmware into directory. > after transfer unplug. *if using displays use the nice view one
 5. Plug in right half > press reset button twice again > drag and drop sofle_right firmware into directory. *if using displays use the nice view one
 *My shops https://keyboard-hoarders.com & https://keyboardhoarders.etsy.com
-![IMG_0823](https://github.com/user-attachments/assets/2ea9dfec-71c9-428f-aef8-a898e3273b3d)
-
-
-## Keymap
-![sofle2enc](https://github.com/user-attachments/assets/97862878-3886-4d13-90c4-bc0ee6767be2)
-
-
-## Bluetooth
-![soflebluetooth](https://github.com/user-attachments/assets/6c6c1d46-74e9-4e91-8191-667fd3f0ec6d)
