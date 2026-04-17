@@ -89,11 +89,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11  &kp F1     &kp F2            &kp F3          &kp F4                &kp F5                           &kp F6          &kp F7                 &kp F8           &kp F9                &kp F10                &kp F12
-&trans   &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp BACKSLASH                    &kp SLASH       &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp SINGLE_QUOTE       &trans
-&trans   &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT                        &kp CARET       &kp AMPERSAND          &kp ASTRK        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans   &kp SLASH  &kp ASTRK         &kp MINUS       &kp PLUS              &kp EQUAL      &none     &none   &kp UNDERSCORE  &kp SINGLE_QUOTE       &kp UNDERSCORE   &kp RIGHT_BRACE       &kp PIPE               &trans
-                    &trans            &trans          &trans                &trans         &trans    &trans  &trans          &trans                 &trans           &trans
+&kp F11  &kp F1     &kp F2            &kp F3          &kp F4                &kp F5                           &kp F6        &kp F7                 &kp F8           &kp F9                &kp F10                &kp F12
+&trans   &kp GRAVE  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp BACKSLASH                    &kp SLASH     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET     &kp SINGLE_QUOTE       &trans
+&trans   &kp EXCL   &kp AT            &kp HASH        &kp DLLR              &kp PRCNT                        &kp CARET     &kp AMPERSAND          &kp ASTRK        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans   &kp SLASH  &kp ASTRK         &kp MINUS       &kp PLUS              &kp EQUAL      &none     &none   &kp QUESTION  &kp SINGLE_QUOTE       &kp UNDERSCORE   &kp RIGHT_BRACE       &kp PIPE               &trans
+                    &trans            &trans          &trans                &trans         &trans    &trans  &trans        &trans                 &trans           &trans
             >;
         };
 
