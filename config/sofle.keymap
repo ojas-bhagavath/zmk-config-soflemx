@@ -55,7 +55,7 @@
 
         };
 
-        mouse_scr: sensor_rotate_kp {
+        sensor_scroll: sensor_scroll {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
@@ -87,7 +87,7 @@
                                 &sk LGUI   &sk LALT   &sk LCTRL   &sk LEFT_SHIFT   &sl 1           &sl 2   &mt RIGHT_SHIFT SPACE   &sk RGUI   &sk RIGHT_ALT   &sk RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>, <&inc_dec_kp UP DOWN>;
+            sensor-bindings = <&sensor_scroll SCRL_RIGHT SCRL_LEFT>, <&sensor_scroll SCRL_UP SCRL_DOWN>;
         };
 
         lower_layer {
