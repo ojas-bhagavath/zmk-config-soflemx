@@ -13,8 +13,8 @@
 // Encoders
 
 &sensors {
-    left_config { triggers-per-rotation = <40>; };
-    right_config { triggers-per-rotation = <40>; };
+    left_config { triggers-per-rotation = <20>; };
+    right_config { triggers-per-rotation = <20>; };
 };
 
 #define BASE 0
